@@ -12,8 +12,10 @@ public class UploadResponse {
 
     @SerializedName("code")
     String code;
-    @SerializedName("status")
-    String status;
+    @SerializedName("msg")
+    String msg;
+    @SerializedName("files")
+    String files;
 
     public String getCode() {
         return code;
@@ -23,13 +25,19 @@ public class UploadResponse {
         this.code = code;
     }
 
-    public String getStatus() {
-        return status;
+    public String getMsg() {
+        return msg;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
 
+    public String getFiles() {
+        return files;
+    }
 
+    public void setFiles(String files) {
+        this.files = files;
+    }
 }
