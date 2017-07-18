@@ -70,7 +70,7 @@ public interface ApiInterface {
 
     @FormUrlEncoded
     @POST("logout")
-    Call<LogoutResponse> logoutUser(@Field("msg") String msg, @Field("code") String code);
+    Call<LogoutResponse> logoutUser(@Field("token") String token);
 
 
 

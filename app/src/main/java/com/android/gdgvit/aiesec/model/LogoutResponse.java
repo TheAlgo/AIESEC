@@ -8,10 +8,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class LogoutResponse {
 
-    @SerializedName("msg")
+    @SerializedName("token")
     private String status;
-    @SerializedName("code")
-    private String code;
+
 
     public String getStatus() {
         return status;
@@ -21,11 +20,4 @@ public class LogoutResponse {
         this.status = status;
     }
 
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
 }
