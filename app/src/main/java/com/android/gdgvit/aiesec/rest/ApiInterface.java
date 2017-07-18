@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 
 import com.android.gdgvit.aiesec.model.AddUserResponse;
+import com.android.gdgvit.aiesec.model.AiesecSignupResponse;
 import com.android.gdgvit.aiesec.model.LoginResponse;
 import com.android.gdgvit.aiesec.model.LogoutResponse;
 import com.android.gdgvit.aiesec.model.SignupResponse;
@@ -46,6 +47,10 @@ public interface ApiInterface {
     @FormUrlEncoded
     @POST("signup")
     Call<SignupResponse> signupUser(@Field("email") String name, @Field("pswd") String password, @Field("name") String email,@Field("raisedby") String raisedby, @Field("cpf1") String countrypref1 ,  @Field("cpf2") String countrypref2, @Field("cpf3") String countrypref3, @Field("ctNo") String contactnp );
+
+    @FormUrlEncoded
+    @POST("asignup")
+    Call<AiesecSignupResponse> signupUser( @Field("email") String email,@Field("pswd") String password, @Field("name") String name, @Field("dept") String dept1 , @Field("ctNo") String contactno );
 
 
     /*@Multipart
