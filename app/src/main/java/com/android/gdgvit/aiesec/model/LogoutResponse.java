@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class LogoutResponse {
 
-    @SerializedName("status")
+    @SerializedName("msg")
     private String status;
     @SerializedName("code")
     private String code;
