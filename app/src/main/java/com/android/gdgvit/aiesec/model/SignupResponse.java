@@ -8,17 +8,16 @@ import com.google.gson.annotations.SerializedName;
 
 public class SignupResponse {
 
-    @SerializedName("status")
-    private String status;
+
     @SerializedName("code")
     private String code;
 
     public String getStatus() {
-        return status;
+        return code;
     }
 
     public void setStatus(String status) {
-        this.status = status;
+        this.code = status;
     }
 
     public String getCode() {
