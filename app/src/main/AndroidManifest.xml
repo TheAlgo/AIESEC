@@ -32,7 +32,11 @@
         <activity android:name=".activity.EP.EPSignUpActivity" />
         <activity android:name=".activity.FileSelection.FileSelectionActivity" />
         <activity android:name=".activity.Aiesecer.ASignUpActivity" />
-        <activity android:name=".activity.Main.oGet.SignUpActivity"></activity>
+        <activity android:name=".activity.Main.SignUpActivity" />
+        <activity
+            android:name=".activity.Aiesecer.AiesecMainActivity"
+            android:label="@string/title_activity_aiesec_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

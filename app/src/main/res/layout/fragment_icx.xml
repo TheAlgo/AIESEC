@@ -6,12 +6,12 @@
     android:weightSum="2"
     >
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:id="@+id/oget"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:id="@+id/oget"/>
 
 
     <LinearLayout
@@ -52,7 +52,7 @@
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
                             android:textSize="@dimen/textsize"
-                            android:text="@string/ogetText"
+                            android:text="Missing"
                             />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

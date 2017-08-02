@@ -1,6 +1,5 @@
 package com.android.gdgvit.aiesec.activity.Main;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -23,8 +22,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import com.android.gdgvit.aiesec.R;
-import com.android.gdgvit.aiesec.activity.EP.ActivityEpMain;
-import com.android.gdgvit.aiesec.activity.Main.oGet.OGetFragment;
 import com.android.gdgvit.aiesec.fragment.StartScreenFragments.StartActivityFragment1;
 import com.android.gdgvit.aiesec.fragment.StartScreenFragments.StartActivityFragment2;
 
@@ -109,8 +106,27 @@ public class StartActivity extends AppCompatActivity{
 
                 if (menuItem.getItemId() == R.id.start_screen_menu_home) {
 
+                    Intent i = new Intent(StartActivity.this,StartActivity.class);
+                    startActivity(i);
+
+
+
                 }
+                if (menuItem.getItemId() == R.id.start_screen_menu_ogv) {
+
+                    OGVFragment clubsAndChaptersFragment = new OGVFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.start_screen_content_main,clubsAndChaptersFragment).addToBackStack("Add").commit();
+
+
+                }
+
+
                 if (menuItem.getItemId() == R.id.start_screen_menu_icx) {
+
+
+                    ICXFragment clubsAndChaptersFragment = new ICXFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.start_screen_content_main,clubsAndChaptersFragment).addToBackStack("Add").commit();
+
 
                 }
 
@@ -122,8 +138,16 @@ public class StartActivity extends AppCompatActivity{
                 }
                 if (menuItem.getItemId() == R.id.start_screen_menu_expansions) {
 
+                    ExpansionsFragment clubsAndChaptersFragment = new ExpansionsFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.start_screen_content_main,clubsAndChaptersFragment).addToBackStack("Add").commit();
+
+
                 }
                 if (menuItem.getItemId() == R.id.start_screen_menu_about_us) {
+
+                    AboutUsFragment clubsAndChaptersFragment = new AboutUsFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.start_screen_content_main,clubsAndChaptersFragment).addToBackStack("Add").commit();
+
 
                 } if (menuItem.getItemId() == R.id.start_screen_menu_login) {
 
@@ -178,6 +202,7 @@ public class StartActivity extends AppCompatActivity{
                     animAlpha.start();
                     ivLogo.setVisibility(View.VISIBLE);
 
+
                 }
                 else if(position==1) {
 
@@ -219,6 +244,8 @@ public class StartActivity extends AppCompatActivity{
         public ViewPagerAdapter(FragmentManager fm) {
             super(fm);
         }
+
+
 
         @Override
         public Fragment getItem(int position) {

@@ -20,10 +20,26 @@
     <string name="create">Create</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ogetText">Outgoing Global Entrepreneur provides a platform for enabling transformation  through an entrepreneurial experience in start up environments abroad></string>
+    <string name="ogvtext">Global Volunteer is an intensive international volunteer abroad experience that enables you to work on projects that impact social issues. Through this we empower communities by developing the people and enabling them to develop a more sustainable and healthy future.
+Overall, through this program, AIESEC is providing young students an opportunity to develop entrepreneurial and leadership skills through international internships mainly on social issues which will help them enrich their education, challenge their worldview and help them gain a unique combination of multi cultural, social and entrepreneurial experience during the formative years of their lives.
+We have a wide range of more than 20 countries with Global Volunteering projects in store.
+</string>
+
+    <string name="ogetText">Outgoing Global Entrepreneur provides a platform for enabling transformation through an entrepreneurial experience in start up environments abroad. The duration of the experience ranges from 6 weeks until 12 weeks. Depending on the project accepted for, a stipend may or may not be provided. Are you ready to venture into the world full of
+opportunities unexplored?
+In the race to be better than the best, we need to do things even best can not imagine. Taking the road less travelled is not just a myth anymore. Technical internships abroad is the way forward to stand out.
+Outgoing Global Talent allows you to work for 3 to 18 months in a corporate environment with regards to various fields of interests with a regulated stipend
+depending on the project accepted for.
+With flexible timelines and a world full of possibilities what are you waiting for?</string>
     <string name="tab_1">Profile</string>
     <string name="tab_2">Documents</string>
     <string name="tab_3">Resources</string>
+    <string name="expansions">Our expansion entities: 
+    CMC
+    Erode
+        
+    If you are interested in partnering with us, contact us on prithvi.kumar@aiesec.net
+    </string>
 
 
     <string-array name="admin_choices">
@@ -33,6 +49,12 @@
         <item>General Body</item>
 
     </string-array>
+    <string name="title_activity_aiesec_main">AiesecMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 
 </resources>
 

@@ -1,4 +1,4 @@
-package com.android.gdgvit.aiesec.activity.Main.oGet;
+package com.android.gdgvit.aiesec.activity.Main;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,6 @@ import android.widget.Button;
 import com.android.gdgvit.aiesec.R;
 import com.android.gdgvit.aiesec.activity.Aiesecer.ASignUpActivity;
 import com.android.gdgvit.aiesec.activity.EP.EPSignUpActivity;
-import com.android.gdgvit.aiesec.activity.Main.ActivityLogin;
 
 public class SignUpActivity extends AppCompatActivity {
 
