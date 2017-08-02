@@ -52,7 +52,7 @@
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
                             android:textSize="@dimen/textsize"
-                            android:text="Missing"
+                            android:text="@string/icxtext"
                             />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

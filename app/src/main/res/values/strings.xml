@@ -34,9 +34,9 @@ With flexible timelines and a world full of possibilities what are you waiting f
     <string name="tab_1">Profile</string>
     <string name="tab_2">Documents</string>
     <string name="tab_3">Resources</string>
-    <string name="expansions">Our expansion entities: 
-    CMC
-    Erode
+    <string name="expansions">Our expansion entities: \n\n\n
+    CMC\n
+    Erode\n\n
         
     If you are interested in partnering with us, contact us on prithvi.kumar@aiesec.net
     </string>
@@ -55,6 +55,7 @@ With flexible timelines and a world full of possibilities what are you waiting f
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="icxtext">It is a big beautiful world, isn\'t it? What limits our understanding of this world are stereotypes and how we form opinions without seeing things for ourselves. AIESEC demands to change this, we believe in our youth to be fair. Incoming Exchange, is the department that ensures people from across oceans have a chance to stay with us, to help us grow while we help them grow. These people who come here are called Exchange Participants, these people, we believe, our unique.</string>
 
 </resources>
 
