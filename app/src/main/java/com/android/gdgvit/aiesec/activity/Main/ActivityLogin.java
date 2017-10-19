@@ -19,6 +19,7 @@ import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
 import com.android.gdgvit.aiesec.R;
+import com.android.gdgvit.aiesec.activity.Aiesecer.AiesecMainActivity;
 import com.android.gdgvit.aiesec.activity.EP.ActivityEpMain;
 import com.android.gdgvit.aiesec.model.LoginResponse;
 import com.android.gdgvit.aiesec.rest.ApiInterface;
@@ -81,9 +82,9 @@ public class ActivityLogin extends AppCompatActivity{
         nextImageButton.setBackground(getDrawable(R.drawable.ic_chevron_right_black_24dp));
 
 
-        if(true)//changed for loss of api
+        if(true)//isLoggedIn() replaced due to API problem
         {
-            Intent i = new Intent(ActivityLogin.this, ActivityEpMain.class);
+            Intent i = new Intent(ActivityLogin.this,AiesecMainActivity.class);
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(i);
