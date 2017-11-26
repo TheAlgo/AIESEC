@@ -79,6 +79,7 @@ public class AiesecMainActivity extends AppCompatActivity
         }
 
         return super.onOptionsItemSelected(item);
+
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -86,7 +87,7 @@ public class AiesecMainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
+        System.out.println("Hello");
         if (id == R.id.aiescer_profile2) {
             //toolbar.setVisibility(View.GONE);
             AiescerProfileFragment df = new AiescerProfileFragment();
